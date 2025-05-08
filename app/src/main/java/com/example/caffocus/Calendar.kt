@@ -10,7 +10,7 @@ import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.example.caffocus.databinding.ActivityMainBinding
+import com.example.caffocus.databinding.CalendarBinding
 import com.example.caffocus.databinding.ItemTodoBinding
 import java.text.SimpleDateFormat
 import java.util.Calendar
@@ -98,7 +98,7 @@ class TodoAdapter(private val allTodoItems: MutableList<TodoItem>) :
 }
 
 class MainActivity : AppCompatActivity() {
-    private lateinit var binding: ActivityMainBinding
+    private lateinit var binding: CalendarBinding
     private lateinit var todoAdapter: TodoAdapter
     private val todoItems = mutableListOf<TodoItem>()
     private var selectedDate: Date = Calendar.getInstance().time
@@ -107,7 +107,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         
-        binding = ActivityMainBinding.inflate(layoutInflater)
+        binding = CalendarBinding.inflate(layoutInflater)
         setContentView(binding.root)
         
         ViewCompat.setOnApplyWindowInsetsListener(binding.main) { v, insets ->
