@@ -4,9 +4,19 @@ plugins {
 }
 
 android {
+
     namespace = "com.example.caffocus"
     compileSdk = 35
     viewBinding.isEnabled = true
+
+
+    buildFeatures{
+        viewBinding = true
+    }
+
+    namespace = "com.example.caffocus"
+    compileSdk = 35
+
 
     defaultConfig {
         applicationId = "com.example.caffocus"

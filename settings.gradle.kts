@@ -19,5 +19,3 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Caffocus"
-include(":app")

@@ -17,7 +17,8 @@
             android:id="@+id/todoContent"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textSize="16sp" />
+            android:textSize="16sp"
+            android:fontFamily="@font/gol" />
 
         <TextView
             android:id="@+id/todoTimestamp"
@@ -26,7 +27,8 @@
             android:layout_marginTop="4dp"
             android:gravity="end"
             android:textSize="12sp"
-            android:textColor="#757575" />
+            android:textColor="#757575"
+            android:fontFamily="@font/gol" />
     </LinearLayout>
 
 </androidx.cardview.widget.CardView>

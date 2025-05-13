@@ -4,6 +4,13 @@
         <!-- Customize your light theme here. -->
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
     </style>
+<<<<<<< HEAD
+=======
+    
+
+    
+    
+>>>>>>> c91dfc0 (demo)
 
     <style name="Theme.Caffocus" parent="Base.Theme.Caffocus" />
 </resources>
